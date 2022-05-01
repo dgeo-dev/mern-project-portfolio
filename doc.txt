@@ -1,0 +1,43 @@
+
+
+touch .gitignore
+
+.env
+/node_modules
+
+npm init -y 
+"start": "node server.js"
+
+touch server.js
+
+npm i express nodemon 
+
+Method - middleware
+module exports
+
+Les routes - 
+Créer api portfolios - crud
+Tester et apprendre insomnia - dossier - lien
+
+Installer mongodb mongoose
+Expliquer mongodb atlas
+Adapter l'api avec mongodb
+
+
+---- Node + React
+
+concurrently pour lancer server et client
+
+"server": "nodemon server.js",
+"client": "npm start --prefix client",
+"dev": "concurrently \"npm run server\" \"npm run client\""
+
+cors 
+
+Faire le crud en react 
+
+npm i slugify
+create porfolio
+
+User 
+https://www.youtube.com/watch?v=d-cHP2MlUyo
